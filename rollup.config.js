@@ -10,6 +10,6 @@ var babelOptions = {
 export default {
   entry: 'src/validator-laravel.js',
   format: 'cjs',
-  dest: 'dist/validator-laravel.js',
+  dest: 'dist/Validator.js',
   plugins: [ babel(babelOptions) ]
 }
