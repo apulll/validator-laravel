@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import Validator from '../dist/Validator.js';
+import Validator from '../dist/validator-laravel.js';
 
 let rules = {
     name: 'required|min:3',

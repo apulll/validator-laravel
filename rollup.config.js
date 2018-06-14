@@ -8,8 +8,8 @@ var babelOptions = {
 }
 
 export default {
-  entry: 'src/Validator.js',
+  entry: 'src/validator-laravel.js',
   format: 'cjs',
-  dest: 'dist/Validator.js',
+  dest: 'dist/validator-laravel.js',
   plugins: [ babel(babelOptions) ]
 }
